@@ -524,17 +524,6 @@
 
     </script>
     <script src="js/wow.min.js"></script>
-    <script type="text/javascript">
-        var menu_btn = document.querySelector("#nav-trigger");
-        var sidebar = document.querySelector("#nav-block");
-        var container = document.querySelector(".my-container");
-        var container2 = document.querySelector(".bottom");
-        menu_btn.addEventListener("click", () => {
-        sidebar.classList.toggle("active-nav");
-        container.classList.toggle("active-cont");
-        container2.classList.toggle("active-bottom");
-        });
-    </script>
     <script>
     wow = new WOW(
       {
@@ -546,6 +535,18 @@
     }
     )
     wow.init();
+    </script>
+    
+    <script type="text/javascript">
+        var menu_btn = document.querySelector("#nav-trigger");
+        var sidebar = document.querySelector("#nav-block");
+        var container = document.querySelector(".my-container");
+        var container2 = document.querySelector(".bottom");
+        menu_btn.addEventListener("click", () => {
+        sidebar.classList.toggle("active-nav");
+        container.classList.toggle("active-cont");
+        container2.classList.toggle("active-bottom");
+        });
     </script>
     
     <script>
@@ -593,6 +594,7 @@
         
         
     </script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </html>

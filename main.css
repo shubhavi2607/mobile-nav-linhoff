@@ -90,7 +90,7 @@ body{font-family:Montserrat,sans-serif!important;margin:0;padding:0;padding-top:
 	.side-navbar {
 		width: 190px;
 		height: 100%;
-		top:4em;
+		top:5em;
 		position: fixed;
 		background-color: #fff;
 		margin-left: -300px;
@@ -133,7 +133,7 @@ body{font-family:Montserrat,sans-serif!important;margin:0;padding:0;padding-top:
 	.getEstimate{
         visibility: visible;
         display: block;
-        width: 190px;
+        width: 90px;
 		height: 100%;
         position: absolute;
         right: 0;
@@ -141,14 +141,14 @@ body{font-family:Montserrat,sans-serif!important;margin:0;padding:0;padding-top:
     }
 
     .getEstimate a{
-		top: 10px;
+		top: 15px;
         position: relative;
         bottom: 6px;
         color: #fff;
         font-weight: 500;
-        left: 22px;
-        font-size: 22px;
-    }
+        left: 16px;
+        font-size: 10px;
+	}
 
 	.nav li a {
 		margin-top: 13px;
@@ -164,24 +164,15 @@ body{font-family:Montserrat,sans-serif!important;margin:0;padding:0;padding-top:
 	}
 }
 
-
-@media (max-width:480px){
-	.getEstimate{
-		visibility: hidden;
-		display: none;
-		background-color: rgb(138, 4, 4);
-	}
-}
-
-
 @media all and (max-width:991px){
 	.logo {
 		display: inline-flex;
 		align-items: center;
 		text-decoration: none;
 		margin-top: 10px;
-		margin-left: 5%;
+		margin-left: 3%;
 		float: none;
+		width: 5px;
 	}
 
 	.float_btn {

@@ -2334,15 +2334,25 @@ function openCity(evt, cityName) {
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="form.js"></script>
-     <script type="text/javascript">
+    <script type="text/javascript">
         var menu_btn = document.querySelector("#nav-trigger");
         var sidebar = document.querySelector("#nav-block");
         var container = document.querySelector(".my-container");
         var container2 = document.querySelector(".bottom");
+        var estimate = document.querySelector(".getEstimate");
         menu_btn.addEventListener("click", () => {
-        sidebar.classList.toggle("active-nav");
-        container.classList.toggle("active-cont");
-        container2.classList.toggle("active-bottom");
+            sidebar.classList.toggle("active-nav");
+            container.classList.toggle("active-cont");
+            container2.classList.toggle("active-bottom");
+            if (document.getElementsByClassName('active-cont').length > 0) {
+                    estimate.style.display = "none";
+                    estimate.style.visibility = "hidden";
+                
+            }else{
+                estimate.style.display = "block";
+                estimate.style.visibility = "visible";
+            }
+    
         });
     </script>
     
